@@ -13,6 +13,10 @@ export default function operations() {
           having operations from spinning to garmenting. Established in 1967 with 25
           machines, it has grown steadily and is today a USD 125 million enterprise.</p>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+          
+>>>>>>> Stashed changes
 =======
           
 >>>>>>> Stashed changes
