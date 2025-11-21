@@ -7,10 +7,10 @@ export default function Profile() {
   
       <div className="bg-white p-6 rounded-xl shadow">
         <h2 className="text-2xl font-bold mb-4">products</h2>
-         <Typography> Best Corporation (P) Limited (BCPL) is one of the pioneers in the manufacturing
+         <p> Best Corporation (P) Limited (BCPL) is one of the pioneers in the manufacturing
           of knitted garments at Tirupur, India. BCPL is an integrated textile company
           having operations from spinning to garmenting. Established in 1967 with 25
-          machines, it has grown steadily and is today a USD 125 million enterprise.</Typography>
+          machines, it has grown steadily and is today a USD 125 million enterprise.</p>
              <div className="flex justify-center">
           <img src="/food.jpg" className="rounded-xl shadow" />
           
