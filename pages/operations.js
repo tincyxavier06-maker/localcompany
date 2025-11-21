@@ -12,6 +12,10 @@ export default function operations() {
           of knitted garments at Tirupur, India. BCPL is an integrated textile company
           having operations from spinning to garmenting. Established in 1967 with 25
           machines, it has grown steadily and is today a USD 125 million enterprise.</p>
+<<<<<<< Updated upstream
+=======
+          
+>>>>>>> Stashed changes
            <div className="flex justify-center">
         <img src="/food.jpg" className="rounded-xl shadow" />
         

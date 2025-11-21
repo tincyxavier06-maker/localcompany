@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Typography } from '@mui/material'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import BackToTop from '@/components/BackToTop'
 
 
 
@@ -12,6 +13,7 @@ export default function HomePage() {
     <Header/>
     
     <Box>
+      <BackToTop/>
 <Typography variant="body2"
         sx={{ textAlign: "center", mt: 4, opacity: 0.7 }}
       >

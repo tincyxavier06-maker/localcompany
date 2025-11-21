@@ -1,5 +1,5 @@
 
-import { AppBar, Grid, Link, Stack, styled, Toolbar, Typography } from '@mui/material'
+import { AppBar, Grid, Link, Stack, styled, Box,Toolbar, Typography } from '@mui/material'
 import React from 'react'
 
 const NewToolBar = styled(Toolbar)({
@@ -16,7 +16,18 @@ const Header = () => {
       
       <AppBar position='static'>
         <NewToolBar> 
-          <Typography variant='h5'>LOCALCOMPANY</Typography>
+            <Stack direction="row" alignItems="center" spacing={1}>
+          <Box
+            component="img"
+            src="food.jpg"    // <-- replace with your logo path
+            alt="Logo"
+            sx={{ width: 45, height: 45, borderRadius: "50%" }}
+          />
+          <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+            local company
+          </Typography>
+        </Stack>
+          
           <Stack direction='row' justifyContent='space-between' width='25%'>
               <NewLink href='home'>Home</NewLink>
               <NewLink href='about'>About</NewLink>
